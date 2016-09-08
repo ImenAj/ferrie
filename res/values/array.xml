@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gouvernera">
+        <item>Ariana</item>
+        <item>Beja</item>
+        <item>Ben Arous</item>
+        <item>Bizerte</item>
+        <item>Gabes</item>
+        <item>Gafsa</item>
+        <item>Jendouba</item>
+        <item>Kairouan</item>
+        <item>Kasserine</item>
+        <item>Kebili</item>
+        <item>Le Kef</item>
+        <item>Mahdia</item>
+        <item>Manouba</item>
+        <item>Médenine</item>
+        <item>Monastir</item>
+        <item>Nabeul</item>
+        <item>Sfax</item>
+        <item>Sidi Bouzid</item>
+        <item>Siliana</item>
+        <item>Sousse</item>
+        <item>Tataouine</item>
+        <item>Tozeur</item>
+        <item>Tunis</item>
+        <item>Zaghouan</item>  
+    </string-array>
+    
+     <string-array name="sujet">
+        <item >Reclamation</item>
+        <item >Information</item> 
+    </string-array>
+    
+      <string-array name="action">
+        <item >Valider</item>
+        <item >Supprimer</item> 
+    </string-array>
+    
+</resources>

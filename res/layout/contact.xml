@@ -1,0 +1,85 @@
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         android:background="#e1e1e1" >
+         
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Contact"
+        android:layout_marginTop="15dip"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/sp_subject"
+        android:layout_width="240dp"
+        android:layout_height="54dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dip" />
+
+    <EditText
+        android:id="@+id/ed_nom_prenom"
+        android:layout_width="266dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dip"
+        android:ems="10"
+        android:hint="Nom et Préneom ?" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ed_tel_contact"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dip"
+        android:inputType="number"
+        android:maxLength="8"
+        android:ems="10"
+        android:hint="N° Tél ?" />
+    
+    <EditText
+        android:id="@+id/ed_email_contact"
+        android:layout_width="268dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dip"
+        android:inputType="number"
+        android:maxLength="8"
+        android:ems="10"
+        android:hint="E-mail ?" />
+
+    <EditText
+        android:id="@+id/ed_msg"
+        android:layout_width="272dp"
+        android:layout_height="153dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dip"
+        android:ems="10"
+        android:hint="Message ?"
+        android:inputType="textMultiLine" />
+
+    <ImageButton
+        android:id="@+id/bt_envoyer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="7dip"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:src="@drawable/bt_envoyer" />
+
+</LinearLayout>
+
+    </ScrollView> 

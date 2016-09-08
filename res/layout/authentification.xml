@@ -1,0 +1,82 @@
+  <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/scrollView1"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:background="#e1e1e1" >
+      
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dip"
+        android:src="@drawable/logo" />
+
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginTop="20dip"
+		        android:layout_marginRight="20dip"
+		        android:text="Login :"
+		        android:textColor="#000000" />
+
+		    <EditText
+		        android:id="@+id/ed_login"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="10dip"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:layout_marginTop="5dip"
+		        android:singleLine="true" >
+
+		        <requestFocus />
+		    </EditText>
+
+		    <TextView
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:text="Password :"
+		        android:textColor="#000000" />
+
+		    <EditText
+		        android:id="@+id/ed_password"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:layout_marginTop="5dip"
+		        android:password="true"
+		        android:singleLine="true" />
+
+		    <Button
+		        android:id="@+id/bt_connecter"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:layout_marginTop="10dip" 
+		        android:text="Se connecter" />
+
+		    <TextView
+		        android:id="@+id/tv_inscrire"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginBottom="40dip"
+		        android:layout_marginTop="25dip"
+		        android:gravity="center"
+		        android:textColor="#000000"
+		        android:text="S&apos;inscrire"
+		        android:textSize="20dip" />
+
+</LinearLayout>
+
+    </ScrollView> 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="pfe.imen.isg"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="8" />
+  
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_app"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="pfe.imen.isg.SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name=".Authentification"></activity>
+        <activity android:name=".Boutiques"></activity>
+        <activity android:name=".Categories"></activity>
+        <activity android:name=".Commandes"></activity>
+        <activity android:name=".Contact"></activity>
+        <activity android:name=".Detail_Boutique"></activity>
+        <activity android:name=".Detail_Produits"></activity>
+        <activity android:name=".Inscription"></activity>
+        <activity android:name=".Menu_Principale"></activity>
+        <activity android:name=".Panier"></activity>
+        <activity android:name=".Produits"></activity>
+        <activity android:name=".Promotion"></activity>
+        <activity android:name=".Sous_Categories"></activity>
+        <activity android:name=".Menu_Clients"></activity>
+        <activity android:name=".Espace_Client"></activity>
+        
+        
+    </application>
+
+</manifest>
